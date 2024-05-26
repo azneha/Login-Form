@@ -1,0 +1,37 @@
+@import url('https://fonts.googlrapis.com/css2?family=poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    display:grid;
+    height: 100%;
+    place-items: center;
+    background: #2F4F4F;
+}
+.wrapper{
+    width: 400px;
+    background: #000000;
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 80px;
+    background: #008080;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+}
+.wrapper form .row input{
+    height: 100%;
+    width:100%;
+}
